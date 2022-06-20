@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    padding-bottom: 120px;
+}
+
+footer b {
+    font-weight: 800;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-block {
+    width: 360px;
+}
+
+.footer-block--title {
+    padding-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    border-bottom: 4px solid orangered;
+}
+
+.footer-block--text {
+    display: grid;
+    gap: 20px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social-item:hover {
+    color: deepskyblue
+}

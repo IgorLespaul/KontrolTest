@@ -1,0 +1,50 @@
+.content {
+    padding-top: 76px;
+    min-height: calc(100vh - 76px);
+}
+
+.preview {
+    display: block;
+    min-height: calc(100vh - 76px);
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    height: 250px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.section-title {
+    padding: 20px 40px;
+    color: #c8a20c;
+    font-size: 42px;
+    font-weight: bold;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: block;
+    font-family: "calibri";
+}
+
+.text {
+    display: grid;
+    gap: 30px;
+    padding: 40px;
+}
+
+.text-block {
+    font-size: 28px;
+}
+
+.sub-title {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+}
